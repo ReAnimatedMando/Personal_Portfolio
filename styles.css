@@ -199,13 +199,14 @@ section {
     max-width: 30%;
     overflow: hidden;
     border-radius: 8px;
+
 }
 
 .projectitem>div:last-child img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 1px solid #65c3eb;
+    border: 1px solid #fff;
 }
 
 .linkcontainer {
@@ -225,21 +226,17 @@ section {
 }
 
 .linkitem:hover {
-    opacity: 0.7;
-}
-
-.linkitem p {
-    font-size: 0.7em;
+    
 }
 
 @media (min-width: 640px) {
-    .statscontainer {
+    .Stats-container {
         flex-direction: row;
     }
     .stats {
         gap: 0px;
     }
-    .about-me {
+    .Name-container {
         width: 80%;
         margin-right: auto;
     }
