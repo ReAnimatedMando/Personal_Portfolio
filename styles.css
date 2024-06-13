@@ -40,7 +40,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 14px;
+    gap: 8px;
 }
 
 .nav {
@@ -75,6 +75,7 @@ header {
     display: block;
     font-size: 1.2rem;
     padding: 2rem;
+    color: var(--secondary-color);
   }
   
   .nav-list a:hover {
@@ -87,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 main, section, .maincontainer {
