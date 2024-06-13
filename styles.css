@@ -105,11 +105,11 @@ section {
     gap: 48px;
 }
 
-.name-container {
+.Name-container {
     gap: 8px;
 }
 
-.stats-container {
+.Stats-container {
     display: flex;
     flex-direction: column;
     align-items: stretch;
