@@ -150,29 +150,6 @@ section {
     min-width: 4px;
 }
 
-.about-me {
-    line-height: 1.5em;
-}
-
-.outreach {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    cursor: pointer;
-    width: fit-content;
-    margin-right: auto;
-    text-decoration: none;
-}
-
-.outreach:hover {
-    opacity: 0.7;
-}
-
-.outreach i {
-    transform: rotate(-45deg);
-    text-decoration: none;
-}
-
 .projectcontainer {
     display: flex;
     flex-direction: column;
