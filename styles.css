@@ -143,7 +143,7 @@ section {
 }
 
 .stats div i {
-    font-size: 1.1em;
+    font-size: 1.8em;
 }
 
 .stats div div {
@@ -251,12 +251,15 @@ section {
     max-width: 980px;
     margin-top: 4rem;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
   
 .contact-details {
     font-size: 2.4rem;
+    color: var(--secondary-color);
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
+    text-decoration: none;
 }
   
 .contact-details:hover {
@@ -265,4 +268,6 @@ section {
 
 footer {
     margin: 0 auto 0 auto;
+    font-size: larger;
+    gap: 14px;
 }
