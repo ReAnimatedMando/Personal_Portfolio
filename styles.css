@@ -26,14 +26,14 @@ body {
     color: var(--secondary-color);
 }
 
-header, main, footer {
-    max-width: 700px;
+header, main {
+    max-width: 900px;
     margin: 0 auto;
     width: 100%;
 }
 
 p {
-    font-size: 1.05em;
+    font-size: 1.2em;
 }
 
 header {
@@ -124,6 +124,7 @@ section {
 
 .img-container img {
     width: 100%;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 
@@ -144,6 +145,7 @@ section {
 .stats div i {
     font-size: 1.1em;
 }
+
 .stats div div {
     display: grid;
     place-items: center;
@@ -203,10 +205,6 @@ section {
     cursor: pointer;
 }
 
-.linkitem:hover {
-    
-}
-
 @media (min-width: 640px) {
     .Stats-container {
         flex-direction: row;
@@ -230,37 +228,41 @@ section {
     height: 80vh;
     padding: 0 2rem;
     background: var(--main-gray);
-  }
+}
   
-  .contact-section-header > h2 {
+.contact-section-header > h2 {
     font-size: 6rem;
-  }
+}
   
-  @media (max-width: 28.75em) {
-    .contact-section-header > h2 {
-      font-size: 4rem;
-    }
-  }
+@media (max-width: 28.75em) {
+.contact-section-header > h2 {
+    font-size: 4rem;
+}
+}
   
-  .contact-section-header > p {
+.contact-section-header > p {
     font-style: italic;
-  }
+}
   
-  .contact-links {
+.contact-links {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 980px;
     margin-top: 4rem;
     flex-wrap: wrap;
-  }
+}
   
-  .contact-details {
+.contact-details {
     font-size: 2.4rem;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
-  }
+}
   
-  .contact-details:hover {
+.contact-details:hover {
     transform: translateY(8px);
-  }
+}
+
+footer {
+    margin: 0 auto 0 auto;
+}
